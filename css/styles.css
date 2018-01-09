@@ -1,0 +1,176 @@
+.debug { border: 1px solid red; }
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0 auto;
+	width: 90%;
+}
+
+h1,
+h2,
+h3,
+p,
+li {
+	font-family: Lato, sans-serif;
+}
+
+.name {
+	font-size: 1.6rem;
+	font-weight: 900;
+}
+
+.menu-item,
+.title {
+	font-size: 1rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.subtitle {
+	font-size: 1.2rem;
+	font-weight: 400;
+}
+
+p {
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 1.4;
+}
+
+img {
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	background-color: #f6f6f6;
+	text-align: center;
+	color: #606060;
+}
+
+header .container { padding-top: 20px; }
+
+header h1 { padding-bottom: 20px; }
+
+.menu,
+.contact-list { list-style-type: none; }
+
+.menu li {
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+.menu li + li { margin: 5px 0; }
+
+.menu li:last-child { margin: 0; }
+
+.menu a {
+	display: block;
+	text-decoration: none;
+	color: #606060;
+	padding: 10px 0;
+}
+
+.photo-profile {
+	width: 70%;
+	padding-top: 20px;
+}
+
+header p {
+	font-size: 1.12rem;
+	padding: 20px 0 40px;
+	color: #909090;
+}
+
+.portfolio {
+	background-color: #fff;
+	text-align: center;
+	color: #606060;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.portfolio .container,
+.contact .container { padding-bottom: 30px; }
+
+.portfolio h2,
+.contact h2 { padding-bottom: 40px; }
+
+.portfolio h3 {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.contact {
+	background-color: #f6f6f6;
+	text-align: center;
+	color: #606060;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.contact p,
+.contact li {
+	font-size: 1.12rem;
+	color: #909090;
+}
+
+.contact p { padding-bottom: 40px; }
+
+.contact li {
+	font-weight: 300;
+	line-height: 1.4;
+}
+
+.contact li:first-child {
+	margin-bottom: 20px;
+}
+
+.contact a {
+	font-weight: 400;
+	color: #909090;
+	text-decoration: none;
+	padding-left: 10px;
+}
+
+footer {
+	background-color: #f6f6f6;
+	text-align: center;
+	color: #606060;
+}
+
+footer .container {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px solid #dedede;
+}
+
+footer a {
+	color: #606060;
+	text-decoration: none;
+}
+
+.footer-item {
+	font-weight: 700;
+	font-size: .8rem;
+}
+
+.footer-item:first-child { float: left; }
+
+.footer-item:last-child {
+	float: right;
+	text-transform: uppercase;
+}
+
+footer .container::after {
+	content: "";
+	display: block;
+	clear: both;
+}
