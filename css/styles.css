@@ -210,9 +210,9 @@ footer .container::after {
 		border-radius: 0;
 	}
 
-	.menu li + li { margin: 0 40px; }
+	.menu li { margin-left: 40px; }
 
-	.menu li:last-child { margin: 0; }
+	.menu li:first-of-type { margin-left: 0; }
 
 	.menu a { padding: 10px; }
 
