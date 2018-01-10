@@ -50,7 +50,7 @@ img {
 }
 
 header {
-	background-color: #f6f6f6;
+	background-color: #fff0af;
 	text-align: center;
 	color: #606060;
 }
@@ -109,7 +109,7 @@ header p {
 }
 
 .contact {
-	background-color: #f6f6f6;
+	background-color: #fff0af;
 	text-align: center;
 	color: #606060;
 	padding-top: 40px;
@@ -141,7 +141,7 @@ header p {
 }
 
 footer {
-	background-color: #f6f6f6;
+	background-color: #fff0af;
 	text-align: center;
 	color: #606060;
 }
@@ -149,7 +149,7 @@ footer {
 footer .container {
 	padding-top: 20px;
 	padding-bottom: 20px;
-	border-top: 1px solid #dedede;
+	border-top: 1px solid #ffd10d;
 }
 
 footer a {
@@ -277,7 +277,7 @@ footer .container::after {
 
 	.menu { float: right; }
 
-	main { background-color: #f6f6f6; }
+	main { background-color: #fff0af; }
 
 	.portfolio {
 		width: 95%;
