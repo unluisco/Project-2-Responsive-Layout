@@ -101,6 +101,7 @@ header p {
 .contact .container { padding-bottom: 30px; }
 
 .portfolio h2,
+.testimonials h2,
 .contact h2 { padding-bottom: 40px; }
 
 .portfolio h3 {
@@ -108,12 +109,31 @@ header p {
 	padding-bottom: 20px;
 }
 
+.testimonials,
 .contact {
 	background-color: #fff0af;
 	text-align: center;
 	color: #606060;
 	padding-top: 40px;
 	padding-bottom: 20px;
+}
+
+.testimonials { padding-bottom: 0; }
+
+.testimonials .container {
+	background-color: #fff;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+.testimonials .container:nth-last-of-type(2) {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.testimonials h3 {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .contact p,
@@ -199,9 +219,7 @@ footer .container::after {
 	.menu a { padding: 10px; }
 
 	.menu a:hover,
-	.footer-menu a:hover {
-		color: #c4a002;
-	}
+	.footer-menu a:hover { color: #c4a002; }
 
 	.photo-profile {
 		width: 45%;
@@ -218,7 +236,8 @@ footer .container::after {
 		text-align: left;
 	}
 
-	header .container::after {
+	header .container::after,
+	.testimonials::after {
 		content: "";
 		display: block;
 		clear: both;
@@ -240,6 +259,16 @@ footer .container::after {
 	.portfolio .container:nth-last-of-type(2) { padding-bottom: 0; }
 
 	.portfolio .container:nth-of-type(odd) { margin-right: 2.5%; }
+
+	.testimonials { padding-top: 60px; }
+
+	.testimonials .container {
+		width: 30%;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.testimonials .container:nth-last-of-type(2) { margin: 0 1.25%; }
 
 	.contact .container { padding-bottom: 0; }
 
