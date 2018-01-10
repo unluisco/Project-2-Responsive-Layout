@@ -149,7 +149,7 @@ footer {
 footer .container {
 	padding-top: 20px;
 	padding-bottom: 20px;
-	border-top: 1px solid #ffd10d;
+	border-top: 2px solid #ffcf00;
 }
 
 footer a {
@@ -197,6 +197,11 @@ footer .container::after {
 	.menu li:last-child { margin: 0; }
 
 	.menu a { padding: 10px; }
+
+	.menu a:hover,
+	.footer-menu a:hover {
+		color: #c4a002;
+	}
 
 	.photo-profile {
 		width: 45%;
