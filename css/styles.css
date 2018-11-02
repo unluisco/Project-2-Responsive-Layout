@@ -290,6 +290,9 @@ footer .container::after {
 
 	.footer-menu li:first-of-type { margin-left: 0; }
 
+	.footer-menu .footer-item:first-of-type,
+	.footer-menu .footer-item:last-of-type { float: none; }
+
 	footer li { margin-left: 20px; }
 
 }
